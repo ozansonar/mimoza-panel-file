@@ -1,0 +1,24 @@
+a{
+    color: rgb(33, 37, 41);
+}
+.go-back-color{
+    color: rgb(33, 37, 41);
+}
+.admin-page-top-settings a{
+    color: rgb(33, 37, 41);
+}
+.bootstrap-tagsinput input{
+    color: rgb(33, 37, 41);
+}
+.select2-container--bootstrap4 .select2-selection{
+    background-color:unset;
+}
+.select2-container--bootstrap4 .select2-selection--single .select2-selection__rendered{
+    color: rgb(33, 37, 41);
+}
+.select2-container--bootstrap4 .select2-selection--single .select2-selection__arrow b{
+    border-color: rgb(33, 37, 41) transparent transparent transparent;
+}
+#datatable-1 a{
+    color: rgb(33, 37, 41) !important;
+}

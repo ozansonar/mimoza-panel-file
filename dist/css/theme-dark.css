@@ -1,0 +1,27 @@
+a{
+    color:#fff;
+}
+.go-back-color{
+    color:white;
+}
+.admin-page-top-settings a{
+    color:white;
+}
+.bootstrap-tagsinput{
+    background: unset;
+}
+.select2-container--bootstrap4 .select2-selection{
+    background-color:unset;
+}
+.select2-container--bootstrap4 .select2-selection--single .select2-selection__rendered{
+    color: #fff;
+}
+.select2-container--bootstrap4 .select2-selection--single .select2-selection__arrow b{
+    border-color: #fff transparent transparent transparent;
+}
+#datatable-1 a{
+    color: unset;
+}
+.swal2-html-container{
+    color:white;
+}

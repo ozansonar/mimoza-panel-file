@@ -1,0 +1,6 @@
+.custom-file-label::after {
+    content: 'Dosya Seç';
+}
+.no-drop{
+    cursor: no-drop
+}
