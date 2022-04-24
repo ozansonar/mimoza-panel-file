@@ -1,3 +1,16 @@
 {
-
+  "name": "ozansonar/mimoza-panel-file",
+  "description": "Basic PHP website template with admin panel",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ozan Sonar",
+      "email": "ozan.sonar@pleksus.com.tr"
+    },
+    {
+      "name": "M.Raşit OKUMUŞ",
+      "email": "rasit.okumus@pleksus.com.tr"
+    }
+  ]
 }
