@@ -147,5 +147,30 @@ function copyToClipboard(text) {
     document.body.removeChild( textArea );
 }
 
+function checkPass(field, rules, i, options){
+    var passVal = field.val();
+    var html = "";
+    if (passVal.length < 8) {
+        html += "* Şifreniz en az 8 karakter içermelidir.<br/>";
+    }
+    if (passVal.length > 32) {
+        html += "* Şifreniz en fazla 32 karakter içermelidir.<br/>";
+    }
+    if (passVal.search(/[a-z]/) < 0) {
+        html += "* Şifreniz en az 1 küçük harf içermelidir.<br/>";
+    }
+
+    if (passVal.search(/[A-Z]/) < 0) {
+        html += "* Şifreniz en az 1 büyük harf içermelidir.<br/>";
+    }
+
+    if (passVal.search(/[0-9]/) < 0) {
+        html += "* Şifreniz en az 1 rakam içermelidir.<br/>";
+    }
+    if(html != "") {
+        return html;
+    }
+}
+
 
 
