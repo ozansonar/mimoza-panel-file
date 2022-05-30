@@ -4,3 +4,6 @@
 .no-drop{
     cursor: no-drop
 }
+.table-modal-icon:hover{
+    cursor: pointer;
+}
