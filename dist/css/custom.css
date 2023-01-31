@@ -18,3 +18,14 @@
     background-color: #00bc8c !important;
     border-color: #00bc8c !important;
 }
+
+.dark-mode .btn-outline-primary {
+    color: #3f6791 !important;
+    border-color: #3f6791 !important;
+}
+
+.dark-mode .btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: #3f6791 !important;
+    border-color: #3f6791 !important;
+}
