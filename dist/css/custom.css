@@ -29,3 +29,14 @@
     background-color: #3f6791 !important;
     border-color: #3f6791 !important;
 }
+
+.dark-mode .btn-outline-warning {
+    color: #f39c12 !important;
+    border-color: #f39c12 !important;
+}
+
+.dark-mode .btn-outline-warning:hover {
+    color: #1f2d3d !important;
+    background-color: #f39c12 !important;
+    border-color: #f39c12 !important;
+}
