@@ -40,3 +40,8 @@
     background-color: #f39c12 !important;
     border-color: #f39c12 !important;
 }
+
+.table-list-img{
+    max-width: 50px;
+    height: auto;
+}
