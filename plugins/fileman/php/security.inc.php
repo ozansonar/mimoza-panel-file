@@ -23,7 +23,7 @@
 function checkAccess($action){
   if(!session_id())
     session_start();
-    if(intval($_SESSION["user_rank"]) != 90){
+    if(intval($_SESSION["user_rank"]) < 60){
       exit("oturum acmalisiniz");
     }
 
